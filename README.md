@@ -7,7 +7,9 @@
 
 **Auteurs :** Nabila Askeur  
 **Mentor :** Vincent V.  
-**Code source :** disponible sur demande (contact : [askeurnabila@gmail.com](mailto:askeurnabila@gmail.com))
+**Code source :** supply_chain_satisfaction_clients  
+Projet créé en septembre 2025, disponible sur demande  
+(Contact : [askeurnabila@gmail.com](mailto:askeurnabila@gmail.com))
 
 
 ---
