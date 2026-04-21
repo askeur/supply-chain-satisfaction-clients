@@ -5,8 +5,8 @@
 > Projet Data Engineer 2025 — DataScientest  
 > Analyse de la satisfaction client à partir des avis Trustpilot
 
-**Auteurs :** Nabila Askeur
-**Mentor :** Vincent V.
+**Auteurs :** Nabila Askeur  
+**Mentor :** Vincent V.  
 **Code source :** disponible sur demande (contact : [askeurnabila@gmail.com](mailto:askeurnabila@gmail.com))
 
 
