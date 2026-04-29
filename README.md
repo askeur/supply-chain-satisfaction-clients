@@ -11,7 +11,9 @@
 Projet créé en septembre 2025, disponible sur demande  
 (Contact : [askeurnabila@gmail.com](mailto:askeurnabila@gmail.com))
 
-
+<p align="left">
+  <img src="accueil_ihm.png" alt="Supply Chain - Satisfaction des clients" width="800"/>
+</p>
 ---
 
 ##  Table des matières
@@ -187,6 +189,10 @@ categories (1)────(n) companies (1)────(n) reviews (n)───�
 
 ---
 
+<p align="left">
+  <img src="snoflake.png" alt="Supply Chain - Snowflake" width="800"/>
+</p>
+
 ##  Machine Learning
 
 ### Pipeline d'analyse de sentiment
@@ -244,6 +250,10 @@ POST /predict_batch       # Prédiction par lot
 GET  /stats               # Statistiques d'utilisation
 ```
 
+<p align="left">
+  <img src="api.png" alt="Supply Chain - API" width="800"/>
+</p>
+
 #### Exemple d'utilisation
 ```bash
 curl -X POST http://localhost:8000/predict \
@@ -263,6 +273,10 @@ curl -X POST http://localhost:8000/predict \
 }
 ```
 
+<p align="left">
+  <img src="model_ihm.png" alt="Supply Chain - Models" width="800"/>
+</p>
+
 ### Application Streamlit
 
 **Fichier** : `app/app_supply_chain.py`
@@ -281,6 +295,11 @@ curl -X POST http://localhost:8000/predict \
 - **Utilisateur** : Inscription libre
 
 ---
+
+<p align="left">
+  <img src="authentification.png" alt="Supply Chain - Authentification" width="800"/>
+</p>
+
 
 ##  Automatisation
 
@@ -305,6 +324,9 @@ trustpilot_etl_to_snowflake
 └── load_core_data
     └── MERGE INTO CORE.categories, companies, authors, reviews
 ```
+<p align="center">
+  <img src="airflow.png" alt="Supply Chain -  DAG Airflow" width="600"/>
+</p>
 
 #### Configuration
 
@@ -312,6 +334,11 @@ trustpilot_etl_to_snowflake
 - **Retries** : 1 tentative après 5 minutes
 - **Alertes** : Email en cas d'échec
 - **Tags** : `trustpilot`, `scraping`, `snowflake`
+
+```
+<p align="left">
+  <img src="grafana_scraping.png" alt="Supply Chain -  Grafana" width="800"/>
+</p>
 
 ### CI/CD GitHub Actions
 
