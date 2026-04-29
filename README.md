@@ -193,6 +193,15 @@ categories (1)────(n) companies (1)────(n) reviews (n)───�
   <img src="snoflake.png" alt="Supply Chain - Snowflake" width="800"/>
 </p>
 
+<p align="left">
+  <img src="elasticsearch_dashboard.png" alt="Supply Chain - Elasticsearch" width="800"/>
+</p>
+
+
+<p align="left">
+  <img src="analyse_ihm.png" alt="Supply Chain - Data" width="800"/>
+</p>
+
 ##  Machine Learning
 
 ### Pipeline d'analyse de sentiment
@@ -324,8 +333,8 @@ trustpilot_etl_to_snowflake
 └── load_core_data
     └── MERGE INTO CORE.categories, companies, authors, reviews
 ```
-<p align="center">
-  <img src="airflow.png" alt="Supply Chain -  DAG Airflow" width="600"/>
+<p align="left">
+  <img src="airflow.png" alt="Supply Chain -  DAG Airflow" width="800"/>
 </p>
 
 #### Configuration
